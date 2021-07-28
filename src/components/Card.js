@@ -1,6 +1,6 @@
 import React from 'react';
  import Card from '@material-ui/core/Card';
- import { CardHeader, CardMedia, CardActions, Button  } from '@material-ui/core';
+ import { CardHeader, CardMedia,  Checkbox  } from '@material-ui/core';
  import "../App.css";
 
 
@@ -20,14 +20,15 @@ const SingerCard = (props) => {
                 
                  />
                 <CardHeader
+                action={
+                    <Checkbox aria-label="settings">
+                            
+                    </Checkbox>}
+
                     title={props.title}
                     subheader={props.genere}
                 />
-                <CardActions>
-                    <Button size="medium" color="primary" >
-                         Select
-                    </Button>
-                </CardActions>
+                
             </Card>
         
        </div>

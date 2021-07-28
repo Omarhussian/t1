@@ -1,12 +1,16 @@
+import img from './assets/theweeknd.png'
+import img2 from './assets/coldplay.png'
+import img3 from './assets/theneighbor.png'
+import img4 from './assets/pinkfloyed.png'
 import React from 'react'
 import './App.css';
 import SingerCard from './components/Card.js';
 import Grid from '@material-ui/core/Grid';
 import Next from './components/NextButton';
 import Back from './components/BackButton';
-
 function App() {
-  const img = require ('./assets/theweeknd.png');
+  
+  
   return (
     <div className="App">
        <Grid
@@ -23,18 +27,18 @@ function App() {
         <SingerCard
           title="PinkFloyed"
           genere="Rock"
-         image={img}
+         image={img4}
 
         />
         <SingerCard
           title="Coldplay"
           genere="Rock"
-          image={require("./assets/coldplay.png")}
+          image={img2}
         />
         <SingerCard
           title="The Neighborhood"
           genere="Rock"
-          image ={require("./assets/coldplay.png")}
+          image ={img3}
         />
         <Grid item xs={6}  >
              <Back   />
