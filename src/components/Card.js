@@ -22,7 +22,7 @@ const SingerCard = (props) => {
                 <CardHeader
                 action={
                     <Checkbox aria-label="settings">
-                            
+
                     </Checkbox>}
 
                     title={props.title}
