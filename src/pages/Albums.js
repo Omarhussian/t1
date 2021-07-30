@@ -1,14 +1,21 @@
-import img11 from '../assets/afterhours';
-import img12 from '../assets/thewall';
-import img13 from '../assets/wipedout';
-import img14 from '../assets/coldplayalbum';
+import img11 from '../assets/afterhours.png';
+import img12 from '../assets/thewall.jpg';
+import img13 from '../assets/wipedout.jpg';
+import img14 from '../assets/coldplayalbum.jpg';
 import React from 'react'
 import AlbumCard from '../components/Album'
+import { Grid } from '@material-ui/core';
 
 
 export default function Albums() {
     return (
         <div>
+        <Grid
+        container
+        direction="row"
+        justifyContent="space-evenly"
+        alignItems="center"
+        >
             <AlbumCard 
                 title="After Hours"
                 artist="The Weeknd"
@@ -33,6 +40,7 @@ export default function Albums() {
                 artist="Coldplay"
                 image={img14}
             />
+            </Grid>
         </div>
     )
 }

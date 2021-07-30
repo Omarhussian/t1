@@ -3,7 +3,7 @@ import Card from '@material-ui/core/Card';
 import { CardHeader, CardMedia,  Checkbox  } from '@material-ui/core';
 
 
-const AlbumCard = () => {
+const AlbumCard = (props) => {
     return (    
         <div className="album-card">
         
