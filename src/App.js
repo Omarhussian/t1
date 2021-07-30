@@ -5,7 +5,8 @@ import Singers from './pages/Singers';
 import Albums from './pages/Albums';
 import Next from './components/NextButton';
 import Back from './components/BackButton';
-import SongsForm from './components/SongForm';
+import Songs from './pages/Songs'
+
 
 function App() {
   
@@ -22,7 +23,8 @@ function App() {
       </Switch>
         <Back />
         <Next />
-        <SongsForm />
+        <Songs />
+        
         
     </div>
     </BrowserRouter>
