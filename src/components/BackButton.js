@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Back = () => {
     return ( 
+      <div className = 'BackButton'> 
         <Link to="/">
          <Button 
          Link = "/" 
@@ -16,6 +17,7 @@ const Back = () => {
            
           </Button>
         </Link>
+        </div>
     );
 }
  

@@ -4,8 +4,9 @@ import { Link } from 'react-router-dom';
 
 const Next = () => {
     return ( 
-        <Link to="/albums">
-        <Button  
+        <div className="next"> 
+         <Link to="/albums">
+         <Button  
           
         variant="contained" 
         color="primary" 
@@ -15,6 +16,7 @@ const Next = () => {
             Next
         </Button>
         </Link>
+    </div>
     );
 }
  

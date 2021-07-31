@@ -1,6 +1,8 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding:0 ;
+    list-style: none;
+    text-decoration: none;
 }
 body {
     background-color:aliceblue;
@@ -8,8 +10,4 @@ body {
 }
 .card {
     margin-top: 20px;
-}
-.next-button {
-    margin-top: 20px;
-    margin-left: 20px;
 }
