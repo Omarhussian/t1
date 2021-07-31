@@ -18,12 +18,12 @@ function App() {
       <Switch>
         <Route path="/" component={Singers} exact/>    
         <Route path="/albums" component={Albums} />    
-
+        <Route path="/songs" component={Songs} />
       
       </Switch>
         <Back />
         <Next />
-        <Songs />
+        
         
         
     </div>
