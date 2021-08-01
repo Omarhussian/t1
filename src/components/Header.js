@@ -16,6 +16,7 @@ const Header = () => {
                     <Link className="links_li" to="/">1</Link>
                     <Link className="links_li" to="/Albums">2</Link>
                     <Link  className="links_li"to="/Songs">3</Link>
+                    <Link  className="links_li"to="/SubmitForm">4</Link>
                         
                     </div>         
                 </ul>

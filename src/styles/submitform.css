@@ -1,0 +1,23 @@
+.sub {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1ch;
+    width:100%;
+    height:450px;
+    margin:auto
+}
+.name {
+    margin-top: 30px;
+}
+.email {
+    margin-top: 30px;
+}
+.mobile {
+    margin-top: 30px;
+}
+
+.sub Button {
+    background-color: #00bcd4;
+}

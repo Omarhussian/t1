@@ -5,7 +5,7 @@ import Singers from './pages/Singers';
 import Albums from './pages/Albums';
 import Songs from './pages/Songs'
 import  Header  from './components/Header';
-
+import SubmitForm from './pages/SubmitForm';
 function App() {
   
   
@@ -17,7 +17,7 @@ function App() {
         <Route path="/" component={Singers} exact/>    
         <Route path="/albums" component={Albums} />    
         <Route path="/songs" component={Songs} />
-      
+        <Route path="/submitform" component={SubmitForm} />
       </Switch>
         
         
