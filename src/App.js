@@ -6,6 +6,7 @@ import Albums from './pages/Albums';
 import Songs from './pages/Songs'
 import  Header  from './components/Header';
 import SubmitForm from './pages/SubmitForm';
+import NotFound from './pages/NotFound';
 function App() {
   
   
@@ -18,6 +19,7 @@ function App() {
         <Route path="/albums" component={Albums} />    
         <Route path="/songs" component={Songs} />
         <Route path="/submitform" component={SubmitForm} />
+        <Route path="*" component={NotFound} />
       </Switch>
         
         
